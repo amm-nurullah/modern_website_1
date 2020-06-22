@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.side_header{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(57deg, #FBC9D4, #D67086);
+	clip-path:polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+nav{
+	width: 100%;
+	min-height: 100px;
+	
+	display: flex;
+}
+.logo{
+	width: 50%;
+	height: 100px;
+}
+.logo img{
+	padding-left: 50px;
+    width: 25%;
+}
+.menu{
+	width: 50%;
+	height: 100px;
+	
+}
+.menu ul{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu ul li{
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+		border:1px solid transparent;
+		transition: .6s ease;
+		padding: 5px 20px;
+}
+
+.menu ul li a:hover{
+	background: linear-gradient(57deg,#D67086,#FBC9D4);
+
+}
+section{
+	display: flex;
+}
+.left_aside{
+	width: 45%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.left_aside img{
+	width: 600px;
+	height: 500px;
+
+}
+
+.right_aside{
+	width: 55%;
+	height: 300px;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	
+	padding: 40px;
+
+}
+.right_aside h1{
+	font-size: 43px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.right_aside p{
+	font-size: 1.1rem;
+	padding: 30px 0;
+}
+.right_aside button{
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	background: linear-gradient(57deg, #FBC9D4, #D67086);
+	border-radius: 4px;
+	padding: 20px 35px;
+	border: transparent;
+	cursor: pointer;
+	transition: .6s;
+}
+.right_aside button:hover{
+	background: linear-gradient(57deg,#D67086,#FBC9D4);
+}
